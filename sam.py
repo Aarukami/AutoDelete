@@ -81,7 +81,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          ],
                                          [
                                             InlineKeyboardButton('❌ Close', callback_data="close"),
-                                            InlineKeyboardButton('📜 Source Code', url='https://github.com/Arun-TG/AutoDelete/tree/Bot-Only')
+                                            InlineKeyboardButton('support ', url='https://t.me/komi_support')
                                          ]
                                      ]
                            await query.message.edit(text=HELP_MSG, reply_markup=InlineKeyboardMarkup(helpbtn))
